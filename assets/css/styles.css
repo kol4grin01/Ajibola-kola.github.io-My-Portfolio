@@ -34,6 +34,20 @@ section{
 	padding: 0.2rem;
 }
 
+.home-key {
+	font-family: 'Tangerine', serif;
+	font-size: 30px;
+	width: 80%;
+	padding-right: 3rem;
+	
+}
+
+
+.gallery {
+    width: 35%;
+    border-radius: 50%;
+}
+
 a.nav-item {
 	color: #dfdfdf;
 }
@@ -43,7 +57,7 @@ a.nav-item:hover {
 }
 
 .avatar{
-	height:200px;
+	height:300px;
 	border-radius: 50%;
 }
 
@@ -67,6 +81,12 @@ a.nav-item:hover {
 	text-align: justify;
 }
 
+.project1-header {
+	font-weight: 600;
+	line-height: 1.125;
+	color: #63574b;
+}
+ 
 .box {
 	background-color: transparent;
 	border: 2px solid rgba(7, 59, 79, 0.5);
@@ -79,7 +99,15 @@ a.nav-item:hover {
 }
 
 .intro {
-	text-align: justify;
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.header-name {
+	font-family: sans-serif, Arial, Helvetica, sans-serif;
+	font-size: 50px;
+	text-align: center;
 	width: 80%;
 	margin: 0 auto;
 }
