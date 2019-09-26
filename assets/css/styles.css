@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
 html, body{
 	font-size:16px;
 	color: #dfdfdf;
@@ -27,6 +33,7 @@ section{
 
 .section-3 {
 	background-color: #0E282E;
+	padding-bottom: 0px;
 }
 
 .section-4 {
@@ -36,9 +43,10 @@ section{
 
 .home-key {
 	font-family: 'Tangerine', serif;
-	font-size: 30px;
+	font-size: 21px;
 	width: 80%;
-	padding-right: 3rem;
+	padding-right: 1.5rem;
+	padding-top: 0.7rem;
 	
 }
 
@@ -46,6 +54,10 @@ section{
 .gallery {
     width: 35%;
     border-radius: 50%;
+}
+
+.nav2 {
+	transition: all 0.5s ease-out;
 }
 
 a.nav-item {
@@ -57,7 +69,7 @@ a.nav-item:hover {
 }
 
 .avatar{
-	height:300px;
+	height:250px;
 	border-radius: 50%;
 }
 
@@ -98,6 +110,10 @@ a.nav-item:hover {
 	margin-bottom: 2rem;
 }
 
+#title-font {
+	font-size: 2.2rem;
+}
+
 .intro {
 	text-align: center;
 	width: 80%;
@@ -105,11 +121,42 @@ a.nav-item:hover {
 }
 
 .header-name {
-	font-family: sans-serif, Arial, Helvetica, sans-serif;
-	font-size: 50px;
+	font-family: 'Tangerine', serif;
+	font-size: 40px;
 	text-align: center;
 	width: 80%;
 	margin: 0 auto;
+}
+
+.wrapper {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 20px 20px;
+	align-items: center;
+	padding-left: 100px;
+	padding-right: 48px;
+}
+
+.wrapper-items {
+	width: 50%;
+	height: 50%;
+	border-radius: 100px;
+}
+
+.social-wrapper {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	gap: 10px 10px;
+	padding-left: 100px;
+	padding-right: 48px;
+	padding-bottom: 0px; 
+	margin-left: 18%;
+	width: 55%;
+}
+
+.social-wrapper-items {
+	
+	border-radius: 100px;
 }
 
 .void-background {
@@ -131,6 +178,12 @@ a.nav-item:hover {
 
 	.nav-toggle span:hover {
 		background-color: #fff;
+	}
+
+	.social-wrapper {
+		display: grid;
+		grid-template-columns: repeat(5, 1fr);
+	
 	}
 
 }
